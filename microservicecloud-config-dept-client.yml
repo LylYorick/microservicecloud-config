@@ -13,8 +13,6 @@ mybatis:
   - classpath:mybatis/mapper/**/*.xml
 spring:
   profiles: dev
-  application:
-    name: microservicecloud-dept   #为这个服务取名，非常重要！！！！！
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
     driver-class-name: org.gjt.mm.mysql.Driver
